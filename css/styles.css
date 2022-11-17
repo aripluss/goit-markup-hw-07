@@ -275,11 +275,11 @@
   background-color: var(--button-bg-active);
 } */
 
-/* -------------------- portfolio.html -------------------- */
+/* -------------------- portfolio.html --------------------
 
 /* Filter buttons */
 
-.section.projects {
+/* .section.projects {
   padding-top: 105px;
   padding-bottom: 83px;
 }
@@ -322,7 +322,7 @@
 
 /* Projects */
 
-.portfolio.list {
+/* .portfolio.list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -406,9 +406,9 @@
 .portfolio .link:hover .portfolio-top-text .text,
 .portfolio .link:focus .portfolio-top-text .text {
   transform: translateY(0);
-}
+}  */
 
-/* -------------------- Modal -------------------- */
+/* -------------------- Modal --------------------
 
 .backdrop {
   position: fixed;
@@ -617,4 +617,4 @@
 .modal-submit-button:hover,
 .modal-submit-button:focus {
   background-color: var(--button-bg-active);
-}
+} */

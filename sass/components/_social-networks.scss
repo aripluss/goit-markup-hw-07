@@ -1,7 +1,11 @@
 .social-networks {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  padding-top: 12px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 
   &__item {
     height: 44px;
@@ -37,22 +41,17 @@
       fill: var(--primary-white-color);
     }
 
-    .social-networks__link &--whitefill {
+    &--whitefill {
       /* in Footer */
       fill: var(--primary-white-color);
     }
   }
 
-  &--footer {
-    /* in Footer */
-    padding-top: 12px;
-  }
-
   &__title {
+    /* in Footer */
     display: block;
     margin-bottom: 20px;
     width: 100%;
-
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);

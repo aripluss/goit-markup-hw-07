@@ -1,12 +1,14 @@
 .features {
-  display: flex;
-  justify-content: space-between;
-}
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.features-card {
-  width: 270px;
+  &__item {
+    width: 270px;
+  }
 
-  &__icon {
+  &__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +27,7 @@
     text-transform: uppercase;
   }
 
-  &__item {
+  &__text {
     margin-top: 0;
     margin-bottom: 0;
     color: var(--secondary-text-color);
