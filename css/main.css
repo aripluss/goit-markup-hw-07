@@ -75,7 +75,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-right: 93px;
 }
 .logo--black {
   /* in Header */
@@ -86,7 +85,7 @@ img {
   color: var(--primary-white-color);
 }
 .logo--footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
@@ -104,6 +103,7 @@ img {
 /* Site nav */
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
@@ -384,9 +384,6 @@ img {
 .footer__container {
   display: flex;
   justify-content: space-between;
-}
-.footer__contacts {
-  max-width: 210px;
 }
 
 /* Address */
